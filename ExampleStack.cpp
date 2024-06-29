@@ -13,7 +13,7 @@ public:
 			MyStack[++top] = Element;
 		}
 		else {
-			cout<<"Stack overflow!\n";
+			cout<<"Stack overflow!\n\n";
 		}
 	}
 	char pop() {
